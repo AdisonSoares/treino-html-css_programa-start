@@ -14,11 +14,19 @@
         
         <nav>
             <h2>Navegação Principal</h2>
-            <span>Início</span>
+            <span>
+                <a href="main.html">Início</a>
+            </span>
             -
-            <span>Sobre mim</span> 
+            <span>
+                <!-- Blank:Abre em outra aba mas não volta, má prática -->
+                <a href="sobre.html" target="_blank">Sobre mim</a>
+            </span> 
             -
-            <span>Contato</span>
+            <span>
+                <!-- Self: Abre na própria aba, boa prática -->
+                <a href="contato.html" target="_self">Contato</a>
+            </span>
         </nav>
     </header>
     <section>
@@ -29,7 +37,12 @@
         </article>
         <article>
             <h5>Contato</h5>
-            ...
+            <a href="mailto:adison@gmail.com">
+                adison@gmail.com
+            </a><br/>
+            <a href="tel:+556133332222">
+                (61) 33332222
+            </a>
         </article>
     </section>
     <main>
@@ -84,7 +97,7 @@
     </aside>
     <footer>
         <nav>
-            LinkedIn <br/>
+            <a href="https://www.linkedin.com/in/adison-soares-ab6b59190/">LinkedIn <br/></a>
             Escola <br/>
             Faculdade </br>
         </nav>
