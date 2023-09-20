@@ -1,0 +1,29 @@
+html{
+    background-color: darkslategray;
+}
+
+h1{
+    color: burlywood;
+}
+
+main h1{
+    color: chartreuse;
+}
+
+h2{
+    color: green;
+    text-decoration: underline;
+}
+
+.titulo-principal_classe{
+    text-decoration: underline;
+}
+
+.texto-azul_classe{
+    color: 
+    blue;
+}
+
+#titulo-principal_id{
+    text-decoration: none;
+}
